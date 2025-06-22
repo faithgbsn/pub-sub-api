@@ -12,24 +12,24 @@ PUBSUB_HOST: api.pubsub.salesforce.com
 # Pub/Sub API Host
 PUBSUB_PORT: 7443
 # Your Salesforce Login URL
-LOGIN_URL: null
+LOGIN_URL: https://resilient-koala-n3f9mn-dev-ed.trailblaze.my.salesforce.com
 
 # For authentication, you can use either username/password or accessToken/tenantId types.
 # Either one of the combinations is required. Please specify `null` values to the unused type.
 # Your Salesforce Username
-USERNAME: null
+USERNAME: fgibson@resilient-koala-n3f9mn.com
 # Your Salesforce Password
-PASSWORD: null
+PASSWORD: Ev3ntM0n!torPl@ygroundy3kU99FpBflki1MTGMi02zYvg
 # Your Salesforce org Tenant ID
 TENANT_ID: null
 # Your Salesforce Session Token
-ACCESS_TOKEN: null
+ACCESS_TOKEN: y3kU99FpBflki1MTGMi02zYvg
 
 # =========================
 # Optional Configurations:
 # =========================
 # Topic to publish/subscribe to (default: /event/Order_Event__e)
-TOPIC: null
+TOPIC: /event/ReportEventStream
 # Number of Events to publish in single or separate batches (default: 5)
 # Used only by PublishStream.java
 NUMBER_OF_EVENTS_TO_PUBLISH: null
